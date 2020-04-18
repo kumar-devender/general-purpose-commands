@@ -32,13 +32,27 @@ git commit --amend
 # Finish the rebase with:
 git rebase —continue
 ```
+#### Amend first commit message
+```
+git rebase -i --root
+```
 #### Undo commits without losing change
 ```
 git reset --soft HEAD~2X
 ```
+#### Commit more files in the existing commit
 
 #### Commit more files in the existing commit
 ```
 git add the_left_out_file
 git commit --amend --no-edit
+```
+#### Basic Command
+```
+git checkout
+git pull
+git fetch
+git cherry-pick <commmit-hash>
+git push -u origin <origin-name>
+
 ```

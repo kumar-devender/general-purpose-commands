@@ -46,7 +46,6 @@ CMD+f12
 Ctrl_alt+o. >>> optimize import
 Alt + enter. >>>>.  static import
 
-
 mvn clean test > output.log
 tail -f output.log | grep "JVM running for”
 tail -f output.log
